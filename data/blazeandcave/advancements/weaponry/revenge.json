@@ -19,7 +19,12 @@
 					"type": "creeper"
 				},
 				"killing_blow": {
-					"is_explosion": true
+					"tags": [
+						{
+							"id": "minecraft:is_explosion",
+							"expected": true
+						}
+					]
 				}
 			}
 		}

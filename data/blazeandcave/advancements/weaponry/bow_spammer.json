@@ -20,7 +20,12 @@
 						"max": 1.0
 						},
 					"type": {
-						"is_projectile": true,
+						"tags": [
+							{
+								"id": "minecraft:is_projectile",
+								"expected": true
+							}
+						],
 						"direct_entity": {
 							"type": "minecraft:arrow"
 						}

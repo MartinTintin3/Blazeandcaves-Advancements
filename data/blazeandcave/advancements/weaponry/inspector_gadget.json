@@ -22,6 +22,16 @@
 							"max": 5
 						}
 					}
+				},
+				"killing_blow": {
+					"type": {
+						"tags": [
+							{
+								"id": "minecraft:player_attack",
+								"expected": true
+							}
+						]
+					}
 				},			
 				"player": {
 					"equipment": {

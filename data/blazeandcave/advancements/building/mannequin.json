@@ -7,7 +7,7 @@
 		"description": {"color":"green","translate":"Craft an armor stand for displaying your armor"},
 		"announce_to_chat": "true"
 	},
-	"parent": "blazeandcave:building/a_masterpiece",
+	"parent": "blazeandcave:building/smooth_dude",
 	"rewards": {
 		"function": "bc_rewards:building/mannequin"
 	},		

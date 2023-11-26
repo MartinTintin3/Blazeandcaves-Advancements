@@ -215,6 +215,30 @@
 					}
 				]
 			}
+		},
+		"torchflower": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:torchflower"
+						]
+					}
+				]
+			}
+		},
+		"pitcher_plant": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:pitcher_plant"
+						]
+					}
+				]
+			}
 		}
 	},
 	"requirements": [
@@ -235,7 +259,9 @@
 		"peony",
 		"cornflower",
 		"lily_of_the_valley",
-		"wither_rose"
+		"wither_rose",
+		"torchflower",
+		"pitcher_plant"
 		]
 	]
 }

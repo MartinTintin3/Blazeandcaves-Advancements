@@ -30,6 +30,16 @@
 						}
 					}
 				},
+				"killing_blow": {
+					"type": {
+						"tags": [
+							{
+								"id": "minecraft:player_attack",
+								"expected": true
+							}
+						]
+					}
+				},
 				"player": {
 					"equipment": {
 						"mainhand": {
@@ -57,6 +67,16 @@
 						"absolute": {
 							"max": 5
 						}
+					}
+				},
+				"killing_blow": {
+					"type": {
+						"tags": [
+							{
+								"id": "minecraft:player_attack",
+								"expected": true
+							}
+						]
 					}
 				},			
 				"player": {
@@ -86,6 +106,16 @@
 						"absolute": {
 							"max": 5
 						}
+					}
+				},
+				"killing_blow": {
+					"type": {
+						"tags": [
+							{
+								"id": "minecraft:player_attack",
+								"expected": true
+							}
+						]
 					}
 				},			
 				"player": {

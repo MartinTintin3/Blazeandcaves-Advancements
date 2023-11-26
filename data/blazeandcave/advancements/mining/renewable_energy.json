@@ -13,15 +13,9 @@
 	},		
 	"criteria": {
 		"charcoal": {
-			"trigger": "minecraft:inventory_changed",
+			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"items": [
-					{
-						"items": [
-							"minecraft:charcoal"
-						]
-					}
-				]
+				"recipe_id": "minecraft:charcoal"
 			}
 		}
 	}

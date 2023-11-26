@@ -15,11 +15,16 @@
 		"scaffolding": {
 			"trigger": "minecraft:placed_block",
 			"conditions": {
-				"item": {
-					"items": [
-						"minecraft:scaffolding"
-					]
-				}
+				"location": [
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": [
+								"minecraft:scaffolding"
+							]
+						}
+					}
+				]
 			}
 		}	
 	}

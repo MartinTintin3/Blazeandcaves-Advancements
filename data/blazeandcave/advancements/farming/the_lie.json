@@ -13,15 +13,9 @@
 	},		
 	"criteria": {
 		"cake": {
-			"trigger": "minecraft:inventory_changed",
+			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"items": [
-					{
-						"items": [
-							"minecraft:cake"
-						]
-					}
-				]
+				"recipe_id": "minecraft:cake"
 			}
 		}
 	}

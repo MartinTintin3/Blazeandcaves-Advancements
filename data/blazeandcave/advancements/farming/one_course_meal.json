@@ -15,33 +15,49 @@
 		"bone_meal": {
 			"trigger": "minecraft:item_used_on_block",
 			"conditions": {
-				"location": {
-					"block": {
-						"tag": "minecraft:logs_that_burn"
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"tag": "minecraft:logs_that_burn"
+							}
+						}
+					},
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": [
+								"minecraft:bone_meal"
+							]
+						}
 					}
-				},
-				"item": {
-					"items": [
-						"minecraft:bone_meal"
-					]
-				}
+				]
 			}
 		},
 		"bone_meal_propagule": {
 			"trigger": "minecraft:item_used_on_block",
 			"conditions": {
-				"location": {
-					"block": {
-						"blocks": [
-							"minecraft:air"
-						]
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:air"
+								]
+							}
+						}
+					},
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": [
+								"minecraft:bone_meal"
+							]
+						}
 					}
-				},
-				"item": {
-					"items": [
-						"minecraft:bone_meal"
-					]
-				}
+				]
 			}
 		}
 	},

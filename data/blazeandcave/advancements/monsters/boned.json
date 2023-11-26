@@ -13,16 +13,22 @@
 	},		
 	"criteria": {
 		"bone_meal": {
-			"trigger": "minecraft:inventory_changed",
+			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"items": [
-					{
-						"items": [
-							"minecraft:bone_meal"
-						]
-					}
-				]
+				"recipe_id": "minecraft:bone_meal"
+			}
+		},
+		"bone_meal_from_bone_block": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "minecraft:bone_meal_from_bone_block"
 			}
 		}
-	}
+	},
+	"requirements": [
+		[
+			"bone_meal",
+			"bone_meal_from_bone_block"
+		]
+	]
 }
